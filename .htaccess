@@ -1,0 +1,3 @@
+RewriteEngine On
+RedirectMatch permanent ^/styles/index.html /
+RedirectMatch permanent ^/images/index.html /

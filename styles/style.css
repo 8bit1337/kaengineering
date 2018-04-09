@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #000000;
+	background-color:#999999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	}
+
+.slogan {	height: 21px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 19px;
+	font-weight: bold;
+	color: #FFFFFF;
+	}
+	
+h2 { 
+	line-height: .8em;
+	text-decoration: underline; 
+	}
+	
+a.nav:link, a.nav:visited, a.nav:active { 
+	color:#000000; 
+	text-decoration: none; 
+	font-weight: bold;
+	}
+	
+a.nav:hover, a#nav2:hover{
+	color: #FF0000;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+#contents { 
+	padding: 0px 10px 0px 10px;	
+	line-height: 1.5em;
+	min-height: 500px;
+}
+
+ul li { 
+	margin-left: -20px;
+	}
+	
+.height1 { 
+	font-size: 14px;
+	line-height: .8em;
+	}
+	
+.height2 { 
+	line-height: .5em;
+	}
+	
+.outline { 
+	min-height: 600px;
+	height: 600px;
+	border: solid 1px #003366;
+	}
+	
+.bdr {
+   		border: 6px inset #000033;
+	 }
+
+a.project, a#nav2, a.CV {
+	text-decoration: none; 
+	color: #000;
+	line-height: 1.5em;
+	font-weight:bold;
+	}
+
+#projects .project, #robotic .project, #automated .project, #presses .project, #paint .project,
+#crane .project, #load .project, #about .CV {
+	color: #c00; 
+	cursor: default;
+	}
+	
+#home #homenav, #services #servicesnav, #projects #projectsnav, 
+#contact #contactnav, #automated #automatednav, #automated #projectsnav, #robotic #roboticnav, 
+#robotic #projectsnav, #presses #pressesnav, #presses #projectsnav, #crane #cranenav, #crane #projectsnav,
+#paint #paintnav, #paint #projectsnav, #load #loadnav, #load #projectsnav, #about #aboutnav, #about #CV{
+	color: #000; 
+	cursor: default; 
+	background: #FFee08;}
+	
+.service { line-height: 1.5em}
